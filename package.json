@@ -1,0 +1,28 @@
+{
+  "name": "node-auth1-project",
+  "version": "1.0.0",
+  "description": "- Authentication.\r - Express Middleware.\r - Password Hashing.\r - Sessions\r - Cookies",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronmatson1/node-auth1-project.git"
+  },
+  "keywords": [],
+  "author": "Aaron Matson <matsonaaron1@gmail.com> (aaronmatson.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aaronmatson1/node-auth1-project/issues"
+  },
+  "homepage": "https://github.com/aaronmatson1/node-auth1-project#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "knex": "^0.21.1",
+    "nodemon": "^2.0.4",
+    "sqlite3": "^4.2.0"
+  }
+}
